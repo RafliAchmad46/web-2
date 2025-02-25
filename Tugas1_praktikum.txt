@@ -1,0 +1,28 @@
+Rafli Achmad Zulfikar (0110124256)
+1. Jelaskan apa yang dimaksud dokumen root
+= Menurut saya, Dokumen root adalah direktori utama di server web tempat file-file situs web disimpan dan diakses oleh pengguna melalui browser. Ini adalah folder yang berisi file HTML, CSS, JavaScript, gambar, serta aplikasi server-side seperti WordPress, yang dapat diakses melalui URL atau domain yang dikonfigurasi.
+
+2. Pada apache web server, apakah dokumen root harus terletak dalam direktori C:\xampp\htdocs ? Jelaskan jawaban anda
+= Jadi, ketika kita menggunakan Apache Web Server dalam XAMPP, dokumen root adalah folder di mana semua file website kita disimpan, dan secara default, folder ini terletak di C:\xampp\htdocs. Ini penting karena Apache akan mencari file-file website kita di lokasi ini ketika kita mengakses localhost di browser. Misalnya, jika kita punya file index.php di dalam htdocs, kita bisa mengaksesnya dengan mengetik http://localhost/index.php di browser.
+Namun, kita juga bisa mengubah lokasi dokumen root jika diperlukan. Caranya adalah dengan mengedit file konfigurasi Apache yang ada di C:\xampp\apache\conf\httpd.conf, di mana kita bisa mencari baris yang menyebutkan DocumentRoot dan mengubahnya sesuai keinginan. Meskipun ada fleksibilitas untuk mengubahnya, bagi pemula, lebih praktis untuk tetap menggunakan lokasi default tersebut agar lebih mudah dalam pengembangan.
+
+3. Jelaskan apa yang dimaksud dengan perintah git : init, clone, remote, add, commit, push dan checkout 
+* = git init: Ini adalah perintah untuk membuat repositori Git baru di folder proyek kita. Setelah menjalankan perintah ini, Git mulai melacak perubahan di proyek kita.
+* git clone: Perintah ini digunakan untuk menyalin repositori yang sudah ada dari internet (misalnya, dari GitHub) ke komputer kita. Jadi, kita bisa bekerja di proyek yang sudah ada.
+* git remote: Ini digunakan untuk mengelola repositori jarak jauh. Misalnya, kita bisa menambahkan repositori di GitHub agar bisa mengirimkan perubahan kita ke sana.
+* git add: Setelah kita mengubah file, kita perlu memberi tahu Git bahwa kita ingin menyimpan perubahan tersebut. Dengan git add <file>, kita menandai file yang ingin kita simpan.
+* git commit: Setelah menambahkan file, kita menggunakan git commit untuk menyimpan perubahan tersebut ke dalam riwayat. Kita juga bisa menambahkan pesan untuk menjelaskan perubahan yang kita buat.
+* git push: Setelah melakukan commit, kita menggunakan git push untuk mengirimkan perubahan kita ke repositori jarak jauh, seperti GitHub, agar orang lain bisa melihatnya.
+* git checkout: Perintah ini digunakan untuk berpindah antara cabang (branch) yang berbeda dalam proyek kita. Misalnya, kita bisa beralih ke cabang lain untuk mengerjakan fitur yang berbeda.
+
+4. Jelaskan perbedaan antara GitHub dan GitLab
+= kalau perbedaan menurut saya ada pada lisensi nya GitHub memiliki versi gratis, banyak fitur canggihnya hanya tersedia di paket berbayar. GitHub juga memiliki model lisensi yang lebih terbatas untuk repositori pribadi di versi gratis. Sedangkan, GitLab menawarkan lebih banyak fitur dalam versi gratisnya, termasuk repositori pribadi tanpa batas. GitLab juga memiliki model open-source untuk versi self-hosted-nya, yang memungkinkan pengguna untuk mengubah dan menyesuaikan platform sesuai kebutuhan mereka.
+
+5. Apa bedanya variable user dengan variable system
+= Menurut saya, variabel user adalah variabel yang dibuat oleh pengguna untuk kebutuhan spesifik dalam program, sedangkan variabel system adalah variabel yang sudah ada dan dikelola oleh sistem operasi untuk memberikan informasi yang berguna bagi program. Variabel user bersifat lokal dan spesifik untuk program tertentu, sedangkan variabel system bersifat global dan dapat diakses oleh berbagai program. 
+
+6. Apa persamaan variable system dengan variable constant
+= Menurut saya keduanya memiliki kesamaan dalam hal nilai yang tidak berubah atau tetap, akses global, dan tujuan untuk menyimpan informasi yang penting. Variabel constant lebih berfokus pada nilai tetap dalam konteks pemrograman, sedangkan variabel system berfungsi untuk memberikan informasi tentang lingkungan sistem.
+
+
+
